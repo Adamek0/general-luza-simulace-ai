@@ -47,7 +47,8 @@ if user_input:
     with st.chat_message("user"):
         st.write(user_input)
 
-    # 6. Instrukce pro AI
+    # 6. Instr ukce pro AI
+    
     system_prompt = f"""
 Jsi AI simulace divizního generála Vojtěcha Borise Luži.
 
