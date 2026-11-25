@@ -14,7 +14,6 @@ except KeyError:
 
 client = genai.Client(api_key=api_key)
 
-# 2. Načtení textu s fakty
 try:
     with open("data_luza.txt", "r", encoding="utf-8") as f:
         fakta = f.read()
